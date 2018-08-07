@@ -53,9 +53,11 @@ Finally, run the test
     
 ## Deploy to App Engine
 Deploy this from a terminal with the google cloud sdk installed.
- The index.yaml needs to be built first by running:
+
+The index.yaml needs to be built first by running:
      
      gcloud app deploy index.yaml
      
 Wait for indexes to build in datastore then run:
+
       gcloud app deploy app.yaml
